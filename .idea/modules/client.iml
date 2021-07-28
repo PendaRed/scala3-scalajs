@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="client [file:/C:/all_dev/scala/scala3-scalajs/]" external.linked.project.path="$MODULE_DIR$/../../client" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../client/target/scala-3.0.0/classes" />
+    <output-test url="file://$MODULE_DIR$/../../client/target/scala-3.0.0/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../client">
+      <sourceFolder url="file://$MODULE_DIR$/../../client/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../client/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../client/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../client/src/test/scala" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../client/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: org.scala-js:scalajs-dom_sjs1_2.13:1.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-js:scalajs-library_2.13:1.6.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scalajs-test-bridge_2.13:1.6.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scalajs-test-interface_2.13:1.6.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala3-library_sjs1_3:3.0.0:jar" level="project" />
+  </component>
+</module>

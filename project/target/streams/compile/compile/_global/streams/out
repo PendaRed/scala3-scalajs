@@ -1,0 +1,4 @@
+[error] C:\all_dev\scala\scala3-scalajs\project\Dependencies.scala:21:20: value %%% is not a member of String
+[error]     "org.scala-js" %%% "scalajs-dom" % "1.1.0"
+[error]                    ^
+[error] one error found

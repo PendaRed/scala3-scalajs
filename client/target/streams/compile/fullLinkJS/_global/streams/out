@@ -1,0 +1,26 @@
+[0m[[0m[0minfo[0m] [0m[0mFull optimizing C:\all_dev\scala\scala3-scalajs\client\target\scala-3.0.0\client-opt[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 499808 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 48020 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Check IR: 304585 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: 894407 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Batch mode: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Incremental part: 173098 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizing 709 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizer part: 501254 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: 681316 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 28073 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 6172 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 54838 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Calculate Dependency Info: 5323 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Analyze Modules: 1054 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Assemble Modules: 17051 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: 26850 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Generate Classes: 200088 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Write trees: 75030 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 0 -- invalidated: 62[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: reused: 0 -- invalidated: 111[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: 344345 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mClosure: Create trees): 132906 us[0m
+[0m[[0m[0minfo[0m] [0m[0mClosure: 0 error(s), 0 warning(s)[0m
+[0m[[0m[0mdebug[0m] [0m[0mClosure: Compiler pass: 2079024 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mClosure: Write result: 94484 us[0m
