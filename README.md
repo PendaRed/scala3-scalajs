@@ -7,7 +7,6 @@ With npm and react, sbt scala 3, scalaJS and IntelliJ.
 Open two command prompts, the first will monitor the scala files and will write the generated
 javascript into the node/npm based reactapp.
 <pre>
-cd client-js
 sbt ~clientJs/fastLinkJS
 </pre>
 
@@ -17,6 +16,16 @@ can run a live webpage that updates on every edit.
 cd reactapp
 npm start
 </pre>
+
+The shared project has trivial stuff in it, but using sbt dependencies the .js or .jvm
+cross compiled code is imported correctly.
+
+## Start the server
+
+This code uses the GCP functions local runner, so open up the file RunLocallyPersonCrudService.scala
+and click on the green arrow (in intellij) to run it.
+
+This file is in the test source for gcpfunctions.
 
 ## Thats it!
 nearly, I'll cover the build for release later.

@@ -1,0 +1,25 @@
+@import "~ag-grid-community/src/styles/ag-grid";
+@import "~ag-grid-community/src/styles/ag-theme-alpine/sass/ag-theme-alpine-mixin";
+
+//https://www.ag-grid.com/javascript-grid/themes-customising/
+.ag-theme-alpine-local {
+  @include ag-theme-alpine((
+    // use theme parameters where possible
+    alpine-active-color: deeppink,
+    grid-size:1,
+    row-height:20px,
+    header-height:20px,
+  ));
+
+  .ag-header {
+    // or write CSS selectors to make customisations beyond what the parameters support
+    text-style: italic;
+  }
+}
+
+.centred-div {
+  margin: auto;
+  width: 400px;
+  border: 3px solid green;
+  padding: 10px;
+}

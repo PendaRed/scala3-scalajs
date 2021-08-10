@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<pre>
+npm install axios
+npm install --save ag-grid-community ag-grid-react
+npm install node-sass
+</pre>
+
 ## Available Scripts
 
 In the project directory, you can run:

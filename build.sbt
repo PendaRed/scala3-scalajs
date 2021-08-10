@@ -25,7 +25,7 @@ lazy val gcpFunctions = (project in file("gcpfunctions"))
   .settings(
     name := "gcp-functions",
   	libraryDependencies ++= Dependencies.gcpDependencies
-  )
+  ) dependsOn(shared.jvm)
 
 
 // example: https://github.com/ochrons/scalajs-spa-tutorial/blob/master/build.sbt
@@ -43,8 +43,8 @@ lazy val clientJs = (project in file("client-js"))
     // CommonJS
     //scalaJSLinkerConfig ~= { _.withModuleKind(ModuleKind.CommonJSModule) }
     Compile / fastLinkJS / scalaJSLinkerOutputDirectory := new File( baseDirectory.value, "../reactapp/src/scalajs"),
-  )
+  ) dependsOn(shared.js)
   
-lazy val root = (project in file("."))
+lazy val scala3scalaJS = (project in file("."))
   .aggregate(shared.js, shared.jvm, gcpFunctions, clientJs)
   
