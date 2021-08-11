@@ -19,6 +19,7 @@ reactapp/.vscode
 reactapp/node_modules
 reactapp/.pnp
 reactapp/.pnp.js
+reactapp/package-lock.json
 
 # testing
 reactapp/coverage
