@@ -1,6 +1,6 @@
 ## Scala 3, ScalaJS project
 
-With npm and react, sbt, scala 3, scalaJS and IntelliJ.
+With npm and react, sbt, scala 3, scalaJS and IntelliJ, I did to move away from typescript as explained at http://gibbons.org.uk/scala3-scalajs-july-2021
 
 ## To run it
 
@@ -36,7 +36,8 @@ npm init react-app ./reactapp
 cd reactapp
 npm start
 </pre>
-also add an eslint file
+
+also add an eslint file which you can see in the reactapp.
 
 ## What does the project do?
 
