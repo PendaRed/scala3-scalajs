@@ -37,7 +37,7 @@ lazy val clientJs = (project in file("client-js"))
     //scalaJSUseMainModuleInitializer := true,
     //mainClass := Some("com.jgibbons.eg1.Hello"),
     // No scala 3 version in maven central yet, so dont use %%%
-    libraryDependencies += "org.scala-js" % "scalajs-dom_sjs1_2.13" % "1.1.0",
+    libraryDependencies ++= Dependencies.scalajsDependencies,
     // ECMAScript
     scalaJSLinkerConfig ~= { _.withModuleKind(ModuleKind.ESModule) },
     // CommonJS

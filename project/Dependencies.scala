@@ -29,6 +29,10 @@ object Dependencies {
     "com.google.cloud.functions.invoker" % "java-function-invoker" % "1.0.0-alpha-2-rc5" % Test,
   ) ++ commonSettingsDependencies ++ circeDepenencies
 
+  val scalajsDependencies = Seq(
+    "org.scala-js" % "scalajs-dom_sjs1_2.13" % "1.1.0"
+  ) ++ commonSettingsDependencies
+
   val sharedDependencies = Seq(
 
   ) ++ commonSettingsDependencies
