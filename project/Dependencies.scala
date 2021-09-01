@@ -30,7 +30,7 @@ object Dependencies {
   ) ++ commonSettingsDependencies ++ circeDepenencies
 
   val scalajsDependencies = Seq(
-    "org.scala-js" % "scalajs-dom_sjs1_2.13" % "1.1.0"
+    "org.scala-js" % "scalajs-dom_sjs1_2.13" % "1.2.0"
   ) ++ commonSettingsDependencies
 
   val sharedDependencies = Seq(
