@@ -1,6 +1,8 @@
 ## Scala 3, ScalaJS project
 
-With npm and react, sbt, scala 3, scalaJS and IntelliJ, I did to move away from typescript as explained at http://gibbons.org.uk/scala3-scalajs-july-2021
+With npm and react, sbt, scala 3, scala.js and IntelliJ, I did to move away from typescript as explained at http://gibbons.org.uk/scala3-scalajs-july-2021
+
+Some search help: Scala 3 Scala.js example project, gcp scala function, sbt scala 3, scala.js multi-project build. 
 
 ## To run it
 
